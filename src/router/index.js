@@ -5,6 +5,7 @@ import GameDetailsPage from '@/views/GameDetailsPage.vue';
 import CollectionPage from '@/views/CollectionPage.vue';
 import ProfilePage from '@/views/ProfilePage.vue';
 import EditProfilePage from '@/views/EditProfilePage.vue';
+import RegisterPage from '@/views/RegisterPage.vue';
 
 const routes = [
   { path: '/', name: 'Login', component: LoginPage },
@@ -17,6 +18,7 @@ const routes = [
     name: 'edit-profile',
     component: EditProfilePage,
   },
+  { path: '/register', name: 'Register', component: RegisterPage },
 ];
 
 const router = createRouter({
